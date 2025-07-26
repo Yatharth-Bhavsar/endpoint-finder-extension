@@ -31,19 +31,6 @@ A lightweight Chrome Extension that **automatically detects and lists all discov
 
 ---
 
-## 📁 Project Structure
-
-endpoint-finder-extension/
-  ├── manifest.json # Extension metadata and configuration
-  ├── background.js # Loads tab and communicates with content script
-  ├── content.js # Extracts all hrefs, scripts, links etc.
-  ├── popup.html # The popup shown when extension icon is clicked
-  ├── popup.js # Controls search, UI rendering
-  ├── styles.css # Custom styles for the popup
-  └── icons/ # Extension icon assets
-
----
-
 ## 🧪 How It Works
 
 1. When you open a new tab and navigate to any site, the extension parses the current DOM.
